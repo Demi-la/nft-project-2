@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    padding: 1.25rem;
+}
+.container{
+  padding: 1.25rem;
+  background-color: hsl(216, 50%, 16%);
+  border-radius:2%;
+  width: 30%;
+  /* margin: 80px; */
+  margin-bottom: 10px;
+  align-items: center;
+ 
+ 
+  /* margin-left: auto; 
+  margin-right: auto; */
+}
+
+
+.primary-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20em;
+    background-image: url(/image-equilibrium.jpg);
+    background-size: cover;
+    background-position: center;
+    /* border: 2px solid red; */
+    /* background-image: url(/image-equilibrium.jpg); */
+   
+    /* height: 70%; */
+    /* border: 2px solid yellow; */
+}
+.primary-image-container:hover{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(63, 246, 215, 0.852)),url(/image-equilibrium.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.equilibrum-image{
+    /* border: 2px solid red; */
+    padding: 10em 11.3em;
+    
+   
+
+}
+.equilibrum-image:hover{
+    background-image: url(/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* 
+.equilibrum-image {
+    border: 2px solid red;
+    padding: 8.5em 10em;
+    background-image: url(/image-equilibrium.jpg);
+    background-size: cover;
+    background-position: center;
+    /* visibility: hidden; */
+    /* max-width: 100%;
+    max-height: 100%;
+    position: relative; 
+   
+} */
+/* #equilibrum-image:hover{
+display: none;
+border: 2px solid red;
+} */
+/* #equilibrum-image,div{
+    /* position: absolute;
+    top: 0;
+    background-color: cyan; 
+    width: 100%;
+    height: 60%;
+    z-index: 999; 
+} */
+/* #equilibrium -image:hover{
+    background-color: aliceblue;
+} */
+.equilibrium h2{
+color: aliceblue;
+font-weight: 600;
+margin-top: 40px;
+}
+.equilibrium h2:hover{
+    color: cyan;
+    cursor: pointer;
+}
+.equilibrium p{
+    color: rgb(82, 97, 138);
+    font-weight: 300px;
+    margin-top: 20px;
+    }
+  
+.image2 ul{
+ list-style-type: none;
+ margin-top: 20px;
+ display: flex;
+ justify-content: space-between;
+ 
+}
+.text1{
+    color: cyan;
+    font-weight: 400;
+}
+.text2{
+    color:rgb(82, 97, 138);
+}
+.image4{
+    border-top: 1px solid rgb(82, 97, 138);
+    margin-top: 30px;
+    display: flex;
+}
+.image4 img{
+    width: 70px;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.image4 p{
+    margin-top:50px ;
+    margin-left: 20px;
+   color: rgb(82, 97, 138) ;
+}
+.image4, p, span{
+   color: white;
+}
+.container,image4, p, span:hover{
+    color: cyan;
+    cursor: pointer;
+ }
+.footer{
+   text-align: center;
+   font-size: 15px;
+   color: aliceblue;
+}
+@media (min-width: 500px){
+    .container{
+        width: 450px;
+        margin: 0 auto 1rem;
+    }
+}
